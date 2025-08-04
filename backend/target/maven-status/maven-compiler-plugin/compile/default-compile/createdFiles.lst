@@ -1,0 +1,12 @@
+com\ntt\ClientService\dto\ErrorResponse.class
+com\ntt\ClientService\exception\ClientNotFoundException.class
+com\ntt\ClientService\ClientServiceApplication.class
+com\ntt\ClientService\config\CorsConfig.class
+com\ntt\ClientService\exception\GlobalExceptionHandler.class
+com\ntt\ClientService\dto\ClientRequest.class
+com\ntt\ClientService\service\ClientService$ClientData.class
+com\ntt\ClientService\service\ClientService$1.class
+com\ntt\ClientService\service\ClientService.class
+com\ntt\ClientService\exception\InvalidRequestException.class
+com\ntt\ClientService\controller\ClientController.class
+com\ntt\ClientService\dto\ClientResponse.class

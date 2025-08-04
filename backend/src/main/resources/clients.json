@@ -1,0 +1,35 @@
+[
+  {
+    "tipoDocumento": "C",
+    "numeroDocumento": "23445322",
+    "primerNombre": "Duvan",
+    "segundoNombre": "Andres",
+    "primerApellido": "Galvis",
+    "segundoApellido": "Brito",
+    "telefono": "3203460370",
+    "direccion": "Carrera 58 #2c-95",
+    "ciudadResidencia": "Bogotá"
+  },
+  {
+    "tipoDocumento": "C",
+    "numeroDocumento": "12345678",
+    "primerNombre": "Maria",
+    "segundoNombre": "Elena",
+    "primerApellido": "Rodriguez",
+    "segundoApellido": "Martinez",
+    "telefono": "3101234567",
+    "direccion": "Calle 123 #45-67",
+    "ciudadResidencia": "Medellín"
+  },
+  {
+    "tipoDocumento": "P",
+    "numeroDocumento": "87654321",
+    "primerNombre": "Carlos",
+    "segundoNombre": "Alberto",
+    "primerApellido": "Gonzalez",
+    "segundoApellido": "Perez",
+    "telefono": "3009876543",
+    "direccion": "Avenida 80 #12-34",
+    "ciudadResidencia": "Cali"
+  }
+]

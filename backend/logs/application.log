@@ -1,0 +1,618 @@
+2025-07-10 22:26:45 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 21328 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend)
+2025-07-10 22:26:45 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-10 22:26:45 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 22:26:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-10 22:26:47 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 22:26:47 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-10 22:26:47 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1053 ms
+2025-07-10 22:26:47 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-10 22:26:47 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.168 seconds (process running for 2.552)
+2025-07-10 22:28:00 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 22:28:00 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 22:28:00 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 22:28:00 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 22:28:00 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 22:28:05 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 22:28:05 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 22:30:37 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-10 22:30:37 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-10 22:31:32 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-10 22:31:32 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-10 22:31:39 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 11700 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend)
+2025-07-10 22:31:39 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-10 22:31:39 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 22:31:40 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-10 22:31:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 22:31:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-10 22:31:40 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1022 ms
+2025-07-10 22:31:40 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-10 22:31:40 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.157 seconds (process running for 2.535)
+2025-07-10 22:32:36 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-10 22:32:36 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-10 22:32:50 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 6340 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend)
+2025-07-10 22:32:50 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-10 22:32:50 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 22:32:51 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-10 22:32:51 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 22:32:51 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-10 22:32:51 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1087 ms
+2025-07-10 22:32:52 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-10 22:32:52 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.253 seconds (process running for 2.634)
+2025-07-10 22:54:08 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 22:54:08 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 22:54:08 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-10 23:00:56 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-10 23:00:57 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-10 23:01:05 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 14092 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica NTT\backend)
+2025-07-10 23:01:05 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-10 23:01:05 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-10 23:01:06 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-10 23:01:06 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-10 23:01:06 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-10 23:01:06 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1042 ms
+2025-07-10 23:01:06 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-10 23:01:06 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.166 seconds (process running for 2.56)
+2025-07-10 23:01:12 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-10 23:01:12 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-10 23:01:12 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-10 23:01:13 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:01:13 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:01:27 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:27 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:28 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:28 [http-nio-8090-exec-4] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:28 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:28 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:29 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:29 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:29 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:29 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:30 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:30 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:30 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:30 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:31 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:31 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:35 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:01:35 [http-nio-8090-exec-1] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 123123132
+2025-07-10 23:03:01 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:03:01 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:06:05 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:06:05 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:06:12 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:06:12 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:18 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:07:18 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:07:23 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:23 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:40 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:40 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:44 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:44 [http-nio-8090-exec-1] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:45 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:45 [http-nio-8090-exec-2] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:46 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:46 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:47 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:47 [http-nio-8090-exec-4] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:48 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:48 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:48 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:48 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:49 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:49 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:52 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:52 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:53 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:53 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:55 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:07:55 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:00 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:16:00 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:16:10 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:10 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:10 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:10 [http-nio-8090-exec-4] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:11 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:11 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:12 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:12 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:13 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:13 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:13 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:13 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:14 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:14 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:14 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:14 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-1] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-2] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:15 [http-nio-8090-exec-4] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:16 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:17 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:17 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:18 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:18 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:18 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:18 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:19 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:19 [http-nio-8090-exec-1] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:20 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:20 [http-nio-8090-exec-2] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:20 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:16:20 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:17:26 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:17:26 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:27:59 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:27:59 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:28:19 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12323311
+2025-07-10 23:28:19 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12323311
+2025-07-10 23:28:26 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12323311
+2025-07-10 23:28:26 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12323311
+2025-07-10 23:29:06 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:29:06 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-10 23:29:24 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:29:24 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:30:04 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:30:04 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:42:30 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:42:30 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:42:47 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:42:47 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:43:24 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:43:24 [http-nio-8090-exec-7] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:06 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:06 [http-nio-8090-exec-8] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:09 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:09 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:09 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:45:09 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:47:40 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:47:40 [http-nio-8090-exec-2] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 234453223
+2025-07-10 23:47:54 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:54 [http-nio-8090-exec-3] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:55 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:55 [http-nio-8090-exec-4] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:55 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:55 [http-nio-8090-exec-6] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:47:57 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:47:57 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:48:20 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:48:20 [http-nio-8090-exec-5] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: P, NumDoc: 23445322
+2025-07-10 23:48:22 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:48:22 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:53:39 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:53:39 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:54:43 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:54:43 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:55:11 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:55:11 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-10 23:55:53 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-10 23:55:53 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:01:41 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:01:41 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:02:12 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:02:12 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:04:13 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:04:13 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:04:46 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:04:46 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:04:50 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:04:50 [http-nio-8090-exec-3] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:05:26 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:05:26 [http-nio-8090-exec-4] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:05:42 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:05:42 [http-nio-8090-exec-6] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:06:13 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:06:13 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:06:37 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:06:37 [http-nio-8090-exec-5] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:06:49 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:06:49 [http-nio-8090-exec-8] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-11 00:07:11 [http-nio-8090-exec-9] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-11 00:07:11 [http-nio-8090-exec-9] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-11 00:07:20 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345671
+2025-07-11 00:07:20 [http-nio-8090-exec-10] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 12345671
+2025-07-11 00:07:31 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-11 00:07:31 [http-nio-8090-exec-1] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-14 21:26:04 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 17.0.12 with PID 37344 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-14 21:26:04 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-14 21:26:04 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 21:26:06 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.054 seconds (process running for 3.292)
+2025-07-14 21:26:45 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 17.0.12 with PID 34844 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-14 21:26:45 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-14 21:26:45 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-14 21:26:46 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.012 seconds (process running for 3.311)
+2025-07-18 08:31:20 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 26808 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:31:20 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:31:20 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:31:22 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:31:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:31:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:31:22 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.841 seconds (process running for 5.302)
+2025-07-18 08:31:41 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 27480 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:31:41 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:31:41 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:31:43 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:31:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:31:43 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:31:43 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.734 seconds (process running for 4.978)
+2025-07-18 08:32:26 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 28620 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:32:26 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:32:26 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:32:28 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:32:28 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:32:28 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:32:28 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.517 seconds (process running for 4.486)
+2025-07-18 08:38:53 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 7080 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:38:53 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:38:53 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:38:55 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:38:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:38:55 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:38:55 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.521 seconds (process running for 4.531)
+2025-07-18 08:39:50 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 21876 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:39:50 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-SNAPSHOT
+2025-07-18 08:39:50 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:39:52 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:39:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:39:52 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:39:52 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.651 seconds (process running for 4.519)
+2025-07-18 08:45:21 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 15676 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:45:21 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:45:21 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:45:22 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:45:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:45:22 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:45:23 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.471 seconds (process running for 4.342)
+2025-07-18 08:52:11 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 4648 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:52:11 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:52:11 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:52:13 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:52:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:52:13 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 08:52:13 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.623 seconds (process running for 4.528)
+2025-07-18 08:52:14 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 08:52:14 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 08:52:38 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 34612 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:52:38 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:52:38 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:52:40 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:52:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:52:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:52:40 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.483 seconds (process running for 4.511)
+2025-07-18 08:53:31 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 40732 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:53:31 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:53:31 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:53:33 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:53:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:53:33 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 08:53:33 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.607 seconds (process running for 4.76)
+2025-07-18 08:53:55 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 40432 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:53:55 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:53:55 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:53:57 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:53:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:53:57 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:53:57 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.599 seconds (process running for 4.66)
+2025-07-18 08:53:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 08:53:59 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 08:54:10 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 28728 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 08:54:10 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 08:54:10 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 08:54:12 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 08:54:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 08:54:12 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 08:54:12 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.487 seconds (process running for 4.573)
+2025-07-18 09:06:57 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 8408 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:06:57 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:06:57 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:06:58 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:06:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:06:58 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:06:58 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.876 seconds (process running for 5.374)
+2025-07-18 09:06:59 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:06:59 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:06:59 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:07:06 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 19788 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:07:06 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:07:06 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:07:08 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:07:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:07:08 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:07:08 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.901 seconds (process running for 3.206)
+2025-07-18 09:07:08 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:07:09 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:07:09 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:09:29 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 41872 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:09:29 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:09:29 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:09:30 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:09:30 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:09:30 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.858 seconds (process running for 3.156)
+2025-07-18 09:09:31 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:09:31 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:09:31 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:11:38 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 27360 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:11:39 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:11:39 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:11:40 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:11:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:11:40 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 09:11:40 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 1.793 seconds (process running for 3.29)
+2025-07-18 09:11:40 [main] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /api/clientes/health
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:11:41 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:11:41 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:12:05 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 37172 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:12:05 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:12:05 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:12:07 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:12:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:12:07 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:12:07 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.114 seconds (process running for 3.819)
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:12:08 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:12:08 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:13:04 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 39908 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:13:04 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:13:04 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:13:05 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:13:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:13:05 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 3 ms
+2025-07-18 09:13:06 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.368 seconds (process running for 4.244)
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:13:07 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:13:07 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:24:09 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 17.0.12 with PID 27260 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:24:09 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:24:09 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:24:11 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:24:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:24:11 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 4 ms
+2025-07-18 09:24:11 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.96 seconds (process running for 4.639)
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:24:13 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:24:13 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot�)
+2025-07-18 09:24:57 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 8008 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:24:57 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:24:57 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:24:58 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:24:58 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:24:58 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:24:58 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 893 ms
+2025-07-18 09:24:59 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:24:59 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.853 seconds (process running for 2.282)
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:25:04 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:25:04 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:05 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:05 [http-nio-8090-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:05 [http-nio-8090-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:06 [http-nio-8090-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:06 [http-nio-8090-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:07 [http-nio-8090-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:07 [http-nio-8090-exec-4] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:25 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:25:25 [http-nio-8090-exec-10] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot�)
+2025-07-18 09:25:37 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:38 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:25:44 [http-nio-8090-exec-5] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:25:44 [http-nio-8090-exec-3] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:27:37 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:27:37 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:28:17 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 13516 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:28:17 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:28:17 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:28:18 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:28:18 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:28:18 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:28:18 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 1179 ms
+2025-07-18 09:28:18 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:28:18 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.083 seconds (process running for 2.464)
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:28:24 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:28:24 [http-nio-8090-exec-1] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:28:24 [http-nio-8090-exec-2] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /favicon.ico
+2025-07-18 09:28:26 [http-nio-8090-exec-6] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:28:31 [http-nio-8090-exec-9] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:29:13 [http-nio-8090-exec-7] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:29:14 [http-nio-8090-exec-8] WARN  o.s.web.servlet.PageNotFound - No mapping for GET /
+2025-07-18 09:30:14 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:30:14 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:30:28 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 41084 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:30:28 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:30:28 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:30:29 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:30:29 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:30:29 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:30:30 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 983 ms
+2025-07-18 09:30:30 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:30:30 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.984 seconds (process running for 2.372)
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:30:30 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:31:18 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:31:18 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:31:38 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 27668 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:31:38 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:31:38 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:31:39 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:31:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:31:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:31:39 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 897 ms
+2025-07-18 09:31:39 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:31:39 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 1.799 seconds (process running for 2.175)
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:31:47 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:32:27 [main] INFO  c.n.C.ClientServiceApplicationTests - Starting ClientServiceApplicationTests using Java 24.0.1 with PID 20196 (started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:32:27 [main] DEBUG c.n.C.ClientServiceApplicationTests - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:32:27 [main] INFO  c.n.C.ClientServiceApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:32:29 [main] INFO  o.s.b.t.m.w.SpringBootMockServletContext - Initializing Spring TestDispatcherServlet ''
+2025-07-18 09:32:29 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Initializing Servlet ''
+2025-07-18 09:32:29 [main] INFO  o.s.t.w.s.TestDispatcherServlet - Completed initialization in 2 ms
+2025-07-18 09:32:29 [main] INFO  c.n.C.ClientServiceApplicationTests - Started ClientServiceApplicationTests in 2.38 seconds (process running for 4.344)
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:32:30 [main] WARN  c.n.C.controller.ClientController - Cliente no encontrado - TipoDoc: C, NumDoc: 11111111
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:32:30 [main] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogotá)
+2025-07-18 09:46:55 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:46:55 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
+2025-07-18 09:47:16 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 40340 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:47:16 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:47:16 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:47:17 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:47:17 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 885 ms
+2025-07-18 09:47:17 [main] ERROR c.n.C.service.ClientService - Error al cargar el archivo clientes.json
+java.io.FileNotFoundException: class path resource [clientes.json] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:212)
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:217)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:427)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1621)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1333)
+	at com.ntt.ClientService.ClientServiceApplication.main(ClientServiceApplication.java:10)
+2025-07-18 09:47:17 [main] WARN  o.s.b.w.s.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes\com\ntt\ClientService\controller\ClientController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'clientService': Invocation of init method failed
+2025-07-18 09:47:17 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-07-18 09:47:17 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-07-18 09:47:17 [main] ERROR o.s.boot.SpringApplication - Application run failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientController' defined in file [C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes\com\ntt\ClientService\controller\ClientController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'clientService': Invocation of init method failed
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1383)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1222)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:566)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1109)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:978)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:618)
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:435)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1344)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1333)
+	at com.ntt.ClientService.ClientServiceApplication.main(ClientServiceApplication.java:10)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientService': Invocation of init method failed
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:220)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:427)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1810)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:604)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:526)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:201)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveBean(DefaultListableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1674)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1621)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:912)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791)
+	... 21 common frames omitted
+Caused by: java.lang.RuntimeException: No se pudo cargar el archivo de clientes
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:39)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMethod.invoke(InitDestroyAnnotationBeanPostProcessor.java:453)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeInitMethods(InitDestroyAnnotationBeanPostProcessor.java:397)
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:217)
+	... 34 common frames omitted
+Caused by: java.io.FileNotFoundException: class path resource [clientes.json] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:212)
+	at com.ntt.ClientService.service.ClientService.cargarClientes(ClientService.java:32)
+	... 41 common frames omitted
+2025-07-18 09:48:11 [main] INFO  c.n.C.ClientServiceApplication - Starting ClientServiceApplication using Java 17.0.12 with PID 30628 (C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend)
+2025-07-18 09:48:11 [main] DEBUG c.n.C.ClientServiceApplication - Running with Spring Boot v4.0.0-SNAPSHOT, Spring v7.0.0-M7
+2025-07-18 09:48:11 [main] INFO  c.n.C.ClientServiceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-07-18 09:48:12 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat initialized with port 8090 (http)
+2025-07-18 09:48:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-07-18 09:48:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/11.0.9]
+2025-07-18 09:48:12 [main] INFO  o.s.b.w.c.s.WebApplicationContextInitializer - Root WebApplicationContext: initialization completed in 930 ms
+2025-07-18 09:48:13 [main] INFO  c.n.C.service.ClientService - Se cargaron 3 clientes desde el archivo JSON
+2025-07-18 09:48:13 [main] INFO  o.s.boot.tomcat.TomcatWebServer - Tomcat started on port 8090 (http) with context path '/'
+2025-07-18 09:48:13 [main] INFO  c.n.C.ClientServiceApplication - Started ClientServiceApplication in 2.019 seconds (process running for 2.508)
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-07-18 09:48:22 [http-nio-8090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.service.ClientService - Buscando cliente - TipoDoc: C, NumDoc: 23445322
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.service.ClientService - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot�)
+2025-07-18 09:48:30 [http-nio-8090-exec-2] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Duvan, segundoNombre=Andres, primerApellido=Galvis, segundoApellido=Brito, telefono=3203460370, direccion=Carrera 58 #2c-95, ciudadResidencia=Bogot�)
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Solicitud recibida - TipoDoc: C, NumDoc: 12345678
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.service.ClientService - Buscando cliente - TipoDoc: C, NumDoc: 12345678
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.service.ClientService - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Maria, segundoNombre=Elena, primerApellido=Rodriguez, segundoApellido=Martinez, telefono=3101234567, direccion=Calle 123 #45-67, ciudadResidencia=Medell�n)
+2025-07-18 09:48:44 [http-nio-8090-exec-7] INFO  c.n.C.controller.ClientController - Cliente encontrado: ClientResponse(tipoDocumento=null, numeroDocumento=null, primerNombre=Maria, segundoNombre=Elena, primerApellido=Rodriguez, segundoApellido=Martinez, telefono=3101234567, direccion=Calle 123 #45-67, ciudadResidencia=Medell�n)
+2025-07-18 09:49:57 [SpringApplicationShutdownHook] INFO  o.s.boot.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-18 09:49:57 [tomcat-shutdown] INFO  o.s.boot.tomcat.GracefulShutdown - Graceful shutdown complete
