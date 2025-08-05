@@ -1,10 +1,30 @@
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\ClientServiceApplication.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\config\CorsConfig.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\controller\ClientController.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\dto\ClientRequest.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\dto\ClientResponse.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\dto\ErrorResponse.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\exception\ClientNotFoundException.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\exception\GlobalExceptionHandler.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\exception\InvalidRequestException.java
-C:\Users\Rentadvisor\OneDrive\Desktop\Pruebas desde el repositorio\Prueba_Tecnica\backend\src\main\java\com\ntt\ClientService\service\ClientService.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\config\SecurityConfig.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\auth\LoginResponse.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\controller\ProductController.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\util\AppConstants.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\controller\AuthController.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\model\Role.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\exception\GlobalExceptionHandler.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\service\AuthServiceImpl.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\config\SwaggerConfig.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\config\ModelMapperConfig.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\security\JwtTokenProvider.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\service\AuthService.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\model\RoleName.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\repository\ProductRepository.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\security\JwtAuthenticationEntryPoint.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\auth\RegisterRequest.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\exception\ResourceNotFoundException.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\ApiResponse.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\service\ProductService.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\security\UserPrincipal.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\repository\RoleRepository.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\model\User.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\model\Product.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\product\ProductDto.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\repository\UserRepository.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\EcommerceApplication.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\auth\LoginRequest.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\service\ProductServiceImpl.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\dto\UserDto.java
+C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\src\main\java\com\ecommerce\backend\security\JwtAuthenticationFilter.java

@@ -1,0 +1,243 @@
+2025-08-04 23:04:07 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 5516 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:04:07 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:04:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:04:08 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:04:08 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:04:08 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:04:08 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:04:08 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:04:08 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1031 ms
+2025-08-04 23:04:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:04:08 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:04:08 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:04:08 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:04:09 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:04:09 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:04:09 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:04:09 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:04:09 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:04:09 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:04:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:04:09 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'authController' defined in file [C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes\com\ecommerce\backend\controller\AuthController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'org.springframework.security.authentication.AuthenticationManager' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2025-08-04 23:04:09 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:04:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:04:09 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:04:09 [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2025-08-04 23:04:09 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-04 23:04:09 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.ecommerce.backend.controller.AuthController required a bean of type 'org.springframework.security.authentication.AuthenticationManager' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'org.springframework.security.authentication.AuthenticationManager' in your configuration.
+
+2025-08-04 23:06:31 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 18204 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:06:31 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:06:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:06:32 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:06:32 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:06:32 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:06:32 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:06:32 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:06:32 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1013 ms
+2025-08-04 23:06:32 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:06:33 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:06:33 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:06:33 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:06:33 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:06:33 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:06:33 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:06:33 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:06:33 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:06:33 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:06:33 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:06:34 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:06:34 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:06:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Or [Mvc [pattern='/h2-console/**']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@4b9da2f0, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5127de08, org.springframework.security.web.context.SecurityContextHolderFilter@bfe49f9, org.springframework.security.web.header.HeaderWriterFilter@3027fe42, org.springframework.web.filter.CorsFilter@259fb8f5, org.springframework.security.web.authentication.logout.LogoutFilter@79499fa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4947b8a7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7cad6289, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5f571d96, org.springframework.security.web.access.ExceptionTranslationFilter@6878cd83, org.springframework.security.web.access.intercept.AuthorizationFilter@6f0ea5de]
+2025-08-04 23:06:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Or [Mvc [pattern='/api/**']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@ba65354, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@647dcc5e, org.springframework.security.web.context.SecurityContextHolderFilter@6757ed9e, org.springframework.security.web.header.HeaderWriterFilter@30628ef9, org.springframework.web.filter.CorsFilter@5af850f1, org.springframework.security.web.authentication.logout.LogoutFilter@7be29ac4, com.ecommerce.backend.security.JwtAuthenticationFilter@38588dea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77d5395a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b0eb7e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b6f7ab3, org.springframework.security.web.access.ExceptionTranslationFilter@3f19f197, org.springframework.security.web.access.intercept.AuthorizationFilter@25c887ca]
+2025-08-04 23:06:34 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@28ea7f58, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2cf7ada5, org.springframework.security.web.context.SecurityContextHolderFilter@31bbcced, org.springframework.security.web.header.HeaderWriterFilter@13653a0b, org.springframework.web.filter.CorsFilter@14c6d1b7, org.springframework.security.web.csrf.CsrfFilter@43f81c74, org.springframework.security.web.authentication.logout.LogoutFilter@45682e3e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32a37d12, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1054864f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c2cc406, org.springframework.security.web.access.ExceptionTranslationFilter@23d030b1, org.springframework.security.web.access.intercept.AuthorizationFilter@5858054c]
+2025-08-04 23:06:34 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:06:34 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.393 seconds (process running for 3.622)
+2025-08-04 23:06:41 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/login.jsp' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:06:41 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/login.jsp' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:06:41 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:06:41 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:06:41 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-08-04 23:06:54 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:06:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:06:54 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:07:11 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 29076 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:07:11 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:07:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:07:11 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:07:12 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:07:12 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:07:12 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:07:12 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:07:12 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1032 ms
+2025-08-04 23:07:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:07:12 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:07:12 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:07:12 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:07:12 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:07:12 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:07:12 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:07:12 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:07:12 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:07:13 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:07:13 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:07:13 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:07:14 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:07:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Or [Mvc [pattern='/h2-console/**']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@57be9aa4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31b846f, org.springframework.security.web.context.SecurityContextHolderFilter@2a073f4f, org.springframework.security.web.header.HeaderWriterFilter@4127dcdb, org.springframework.web.filter.CorsFilter@21c8dd3e, org.springframework.security.web.authentication.logout.LogoutFilter@48b85dc5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@a5f5b96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40ab1491, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@585d570e, org.springframework.security.web.access.ExceptionTranslationFilter@22ff53d1, org.springframework.security.web.access.intercept.AuthorizationFilter@291fbdc9]
+2025-08-04 23:07:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure Or [Mvc [pattern='/api/**']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@22bf2a0d, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61774805, org.springframework.security.web.context.SecurityContextHolderFilter@3b6f7ab3, org.springframework.security.web.header.HeaderWriterFilter@5af850f1, org.springframework.web.filter.CorsFilter@57e351a, org.springframework.security.web.authentication.logout.LogoutFilter@50626d22, com.ecommerce.backend.security.JwtAuthenticationFilter@6467ddc7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2eab279, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@87f8146, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1b2c513e, org.springframework.security.web.access.ExceptionTranslationFilter@647dcc5e, org.springframework.security.web.access.intercept.AuthorizationFilter@734db023]
+2025-08-04 23:07:14 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@9e96118, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a3740a5, org.springframework.security.web.context.SecurityContextHolderFilter@c2cc406, org.springframework.security.web.header.HeaderWriterFilter@14c6d1b7, org.springframework.web.filter.CorsFilter@7e09bee, org.springframework.security.web.csrf.CsrfFilter@28ea7f58, org.springframework.security.web.authentication.logout.LogoutFilter@2ec3b5dd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@77c77a64, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@664c6bbc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1bb1c6dd, org.springframework.security.web.access.ExceptionTranslationFilter@2cf7ada5, org.springframework.security.web.access.intercept.AuthorizationFilter@678f685f]
+2025-08-04 23:07:14 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:07:14 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.5 seconds (process running for 3.746)
+2025-08-04 23:07:23 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:07:23 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:07:23 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:07:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:07:23 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-04 23:07:55 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:07:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:07:55 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:08:10 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 31884 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:08:10 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:08:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:08:10 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:08:11 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:08:11 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:08:11 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:08:11 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:08:11 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 969 ms
+2025-08-04 23:08:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:08:11 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:08:11 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:08:11 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:08:11 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:08:11 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:08:11 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:08:11 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:08:11 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:08:12 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:08:12 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:08:12 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:08:13 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:08:13 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75be3cdf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f500481, org.springframework.security.web.context.SecurityContextHolderFilter@1913188a, org.springframework.security.web.header.HeaderWriterFilter@44b860b1, org.springframework.web.filter.CorsFilter@38dde7ec, org.springframework.security.web.authentication.logout.LogoutFilter@21c8dd3e, com.ecommerce.backend.security.JwtAuthenticationFilter@3c9ef6e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e9f8c8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cf09576, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bc57af4, org.springframework.security.web.access.ExceptionTranslationFilter@765611c9, org.springframework.security.web.access.intercept.AuthorizationFilter@69c27acb]
+2025-08-04 23:08:13 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:08:13 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.268 seconds (process running for 3.517)
+2025-08-04 23:08:20 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:08:20 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:08:20 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:08:20 [http-nio-8080-exec-2] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-04 23:08:20 [http-nio-8080-exec-2] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/favicon.ico' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:08:57 [http-nio-8080-exec-4] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 540 ms
+2025-08-04 23:13:19 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:13:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:13:19 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:13:41 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 21436 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:13:41 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:13:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:13:41 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:13:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:13:42 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:13:42 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:13:42 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:13:42 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
+2025-08-04 23:13:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:13:42 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:13:42 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:13:42 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:13:42 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:13:42 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:13:42 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:13:42 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:13:42 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:13:43 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:13:43 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:13:43 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:13:44 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:13:44 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@75be3cdf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@f500481, org.springframework.security.web.context.SecurityContextHolderFilter@1913188a, org.springframework.security.web.header.HeaderWriterFilter@44b860b1, org.springframework.web.filter.CorsFilter@38dde7ec, org.springframework.security.web.authentication.logout.LogoutFilter@21c8dd3e, com.ecommerce.backend.security.JwtAuthenticationFilter@3c9ef6e9, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e9f8c8f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2cf09576, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3bc57af4, org.springframework.security.web.access.ExceptionTranslationFilter@765611c9, org.springframework.security.web.access.intercept.AuthorizationFilter@69c27acb]
+2025-08-04 23:13:44 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:13:44 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.356 seconds (process running for 3.593)
+2025-08-04 23:13:52 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:13:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:13:52 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-04 23:13:52 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/favicon.ico' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:13:52 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/favicon.ico' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:14:24 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:14:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:14:24 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:14:39 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 17808 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:14:39 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:14:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:14:40 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 50 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:14:40 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:14:40 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:14:40 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:14:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:14:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1096 ms
+2025-08-04 23:14:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:14:40 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=SA
+2025-08-04 23:14:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:14:40 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:14:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:14:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:14:40 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:14:40 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:14:40 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:14:41 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:14:41 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:14:41 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:14:42 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:14:42 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@10982760, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50626d22, org.springframework.security.web.context.SecurityContextHolderFilter@65d28ad4, org.springframework.security.web.header.HeaderWriterFilter@48b85dc5, org.springframework.web.filter.CorsFilter@7cc742d, org.springframework.security.web.csrf.CsrfFilter@44b860b1, org.springframework.security.web.authentication.logout.LogoutFilter@38dde7ec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@b0ff869, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ae81b53, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@734db023, org.springframework.security.web.access.ExceptionTranslationFilter@3ac60eeb, org.springframework.security.web.access.intercept.AuthorizationFilter@3b6f7ab3]
+2025-08-04 23:14:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:14:42 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.547 seconds (process running for 3.827)
+2025-08-04 23:15:12 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/test.do' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:15:12 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:15:12 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:15:12 [http-nio-8080-exec-3] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-04 23:15:12 [http-nio-8080-exec-3] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/favicon.ico' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:17:41 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:17:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-08-04 23:17:41 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-08-04 23:18:38 [main] INFO  c.e.backend.EcommerceApplication - Starting EcommerceApplication using Java 17.0.12 with PID 17456 (C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend\target\classes started by Rentadvisor in C:\Users\Rentadvisor\OneDrive\Desktop\Prueba Tecnica\Prueba_Tecnica_2\backend)
+2025-08-04 23:18:38 [main] INFO  c.e.backend.EcommerceApplication - No active profile set, falling back to 1 default profile: "default"
+2025-08-04 23:18:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-04 23:18:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40 ms. Found 3 JPA repository interfaces.
+2025-08-04 23:18:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-08-04 23:18:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-08-04 23:18:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-08-04 23:18:39 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-08-04 23:18:39 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1033 ms
+2025-08-04 23:18:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-08-04 23:18:39 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:ecommerce user=DUVANGB
+2025-08-04 23:18:39 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-08-04 23:18:40 [main] INFO  o.s.b.a.h.H2ConsoleAutoConfiguration - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:ecommerce'
+2025-08-04 23:18:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-04 23:18:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.3.1.Final
+2025-08-04 23:18:40 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-08-04 23:18:40 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-04 23:18:40 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-04 23:18:40 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-04 23:18:40 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-04 23:18:41 [main] INFO  o.s.d.j.r.query.QueryEnhancerFactory - Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-08-04 23:18:41 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-04 23:18:41 [main] INFO  o.s.s.web.DefaultSecurityFilterChain - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@3bc57af4, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3f19f197, org.springframework.security.web.context.SecurityContextHolderFilter@2b8502e7, org.springframework.security.web.header.HeaderWriterFilter@2cf09576, org.springframework.web.filter.CorsFilter@30628ef9, org.springframework.security.web.csrf.CsrfFilter@4127dcdb, org.springframework.security.web.authentication.logout.LogoutFilter@247246ea, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e3469df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@79499fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6757ed9e, org.springframework.security.web.access.ExceptionTranslationFilter@1e295ef1, org.springframework.security.web.access.intercept.AuthorizationFilter@75be3cdf]
+2025-08-04 23:18:42 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-08-04 23:18:42 [main] INFO  c.e.backend.EcommerceApplication - Started EcommerceApplication in 3.536 seconds (process running for 3.789)
+2025-08-04 23:18:46 [http-nio-8080-exec-1] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/h2-console/login.do' (previous null). Performing CorsConfiguration lookup. This is logged once only at WARN level, and every time at TRACE.
+2025-08-04 23:18:46 [http-nio-8080-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-04 23:18:46 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-08-04 23:18:46 [http-nio-8080-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2025-08-04 23:18:46 [http-nio-8080-exec-7] WARN  o.s.w.s.h.HandlerMappingIntrospector - Cache miss for REQUEST dispatch to '/favicon.ico' (previous null). Performing MatchableHandlerMapping lookup. This is logged once only at WARN level, and every time at TRACE.
