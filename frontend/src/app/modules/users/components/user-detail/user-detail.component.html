@@ -1,0 +1,67 @@
+<div class="container mt-4" *ngIf="user">
+  <div class="card">
+    <div class="card-header">
+      <h4>Detalle de Usuario #{{ user.id }}</h4>
+    </div>
+
+    <div class="card-body">
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Información Básica</h5>
+          <div class="mb-3">
+            <strong>Nombre:</strong> {{ user.name }}
+          </div>
+          <div class="mb-3">
+            <strong>Email:</strong> {{ user.email }}
+          </div>
+          <div class="mb-3">
+            <strong>Username:</strong> {{ user.username }}
+          </div>
+          <div class="mb-3">
+            <strong>Cliente Frecuente:</strong>
+            <span class="badge" [ngClass]="{
+              'bg-success': user.isFrequentCustomer,
+              'bg-secondary': !user.isFrequentCustomer
+            }">
+              {{ user.isFrequentCustomer ? 'Sí' : 'No' }}
+            </span>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <h5>Roles y Permisos</h5>
+          <div class="mb-3">
+            <strong>Roles:</strong>
+            <div class="mt-2">
+              <span *ngFor="let role of user.roles" class="badge bg-primary me-2">
+                {{ getRoleName(role) }}
+              </span>
+            </div>
+          </div>
+
+          <div class="mb-3">
+            <strong>Fecha de Creación:</strong> {{ user.createdAt | date:'medium' }}
+          </div>
+          <div class="mb-3">
+            <strong>Última Actualización:</strong> {{ user.updatedAt | date:'medium' }}
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-4 d-flex gap-2">
+        <button (click)="markAsFrequent()" class="btn" [ngClass]="{
+          'btn-warning': user.isFrequentCustomer,
+          'btn-success': !user.isFrequentCustomer
+        }">
+          {{ user.isFrequentCustomer ? 'Quitar como frecuente' : 'Marcar como frecuente' }}
+        </button>
+        <a [routerLink]="['/users/edit', user.id]" class="btn btn-primary">
+          Editar
+        </a>
+        <a routerLink="/users" class="btn btn-outline-secondary">
+          Volver
+        </a>
+      </div>
+    </div>
+  </div>
+</div>

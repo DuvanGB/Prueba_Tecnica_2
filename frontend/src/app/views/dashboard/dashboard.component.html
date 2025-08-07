@@ -1,0 +1,68 @@
+<div class="container mt-4">
+  <h2>Panel de Control</h2>
+
+  <div NgIf="loading" class="text-center my-5">
+    <app-loading-spinner size="lg"></app-loading-spinner>
+  </div>
+
+  <div NgIf="!loading" class="row mt-4">
+    <!-- Stats Cards -->
+    <div class="col-md-4 mb-4">
+      <div class="card text-white bg-primary h-100">
+        <div class="card-body">
+          <h5 class="card-title">Productos Activos</h5>
+          <h2 class="card-text">{{ activeProductsCount }}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card text-white bg-warning h-100">
+        <div class="card-body">
+          <h5 class="card-title">Pedidos Pendientes</h5>
+          <h2 class="card-text">{{ pendingOrdersCount }}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+      <div class="card text-white bg-success h-100">
+        <div class="card-body">
+          <h5 class="card-title">Top Productos</h5>
+          <h2 class="card-text">{{ topProducts.length }}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Top Products -->
+  <div class="row mt-4">
+    <div class="col-12">
+      <div class="card">
+        <div class="card-header">
+          <h4>Productos Más Vendidos</h4>
+        </div>
+        <div class="card-body">
+          <div class="table-responsive">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th>Producto</th>
+                  <th>Unidades Vendidas</th>
+                  <th>Ingresos Totales</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let product of topProducts">
+                  <td>{{ product.product.name }}</td>
+                  <td>{{ product.totalSold }}</td>
+                <td>{{ product.totalRevenue | currency }}</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

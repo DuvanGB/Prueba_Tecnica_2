@@ -54,7 +54,7 @@
           "configurations": {
             "production": {
               "buildTarget": "frontend:build:production"
-            },
+            },       
             "development": {
               "buildTarget": "frontend:build:development"
             }

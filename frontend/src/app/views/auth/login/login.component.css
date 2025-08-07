@@ -1,0 +1,14 @@
+.auth-container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+
+  .card {
+    border: none;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    
+    .card-body {
+      padding: 2rem;
+    }
+  }
+}

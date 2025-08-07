@@ -1,0 +1,75 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header">
+      <h4>{{ isEditMode ? 'Editar Usuario' : 'Crear Nuevo Usuario' }}</h4>
+    </div>
+
+    <div class="card-body">
+      <form [formGroup]="userForm" (ngSubmit)="onSubmit()">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Nombre Completo</label>
+              <input type="text" class="form-control" formControlName="name"
+                     [class.is-invalid]="userForm.get('name')?.invalid && userForm.get('name')?.touched">
+              <div NgIf="userForm.get('name')?.errors?.['required']" class="invalid-feedback">
+                Nombre es requerido
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Email</label>
+              <input type="email" class="form-control" formControlName="email"
+                     [class.is-invalid]="userForm.get('email')?.invalid && userForm.get('email')?.touched">
+              <div NgIf="userForm.get('email')?.errors?.['required']" class="invalid-feedback">
+                Email es requerido
+              </div>
+              <div NgIf="userForm.get('email')?.errors?.['email']" class="invalid-feedback">
+                Email no válido
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="mb-3">
+              <label class="form-label">Username</label>
+              <input type="text" class="form-control" formControlName="username"
+                     [class.is-invalid]="userForm.get('username')?.invalid && userForm.get('username')?.touched">
+              <div NgIf="userForm.get('username')?.errors?.['required']" class="invalid-feedback">
+                Username es requerido
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label class="form-label">Roles</label>
+              <select multiple class="form-select" formControlName="roles"
+                      [class.is-invalid]="userForm.get('roles')?.invalid && userForm.get('roles')?.touched">
+                <option *ngFor="let role of availableRoles" [value]="role">
+                  {{ getRoleName(role) }}
+                </option>
+              </select>
+              <div NgIf="userForm.get('roles')?.errors?.['required']" class="invalid-feedback">
+                Al menos un rol es requerido
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3 form-check">
+          <input type="checkbox" class="form-check-input" formControlName="isFrequentCustomer">
+          <label class="form-check-label">Cliente Frecuente</label>
+        </div>
+
+        <div class="d-flex justify-content-end gap-2">
+          <button type="button" routerLink="/users" class="btn btn-secondary">
+            Cancelar
+          </button>
+          <button type="submit" class="btn btn-primary" [disabled]="userForm.invalid || loading">
+            <span NgIf="!loading">{{ isEditMode ? 'Actualizar' : 'Crear' }}</span>
+            <span NgIf="loading">Procesando...</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,78 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Gestión de Usuarios</h2>
+    <a routerLink="/users/create" class="btn btn-primary">
+      <i class="bi bi-plus-lg"></i> Nuevo Usuario
+    </a>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar usuarios..." 
+               [(ngModel)]="searchTerm" (input)="applyFilters()">
+        <button class="btn btn-outline-secondary" type="button">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <select class="form-select" [(ngModel)]="roleFilter" (change)="applyFilters()">
+        <option value="">Todos los roles</option>
+        <option *ngFor="let role of enumKeys(UserRole)" [value]="role">
+          {{ getRoleName(role) }}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div *ngIf="loading" class="text-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+
+  <div *ngIf="!loading">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Roles</th>
+            <th>Frecuente</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let user of filteredUsers">
+            <td>{{ user.id }}</td>
+            <td>{{ user.name }}</td>
+            <td>{{ user.email }}</td>
+            <td>
+              <span *ngFor="let role of user.roles" class="badge bg-secondary me-1">
+                {{ getRoleName(role) }}
+              </span>
+            </td>
+            <td>
+              <i *ngIf="user.isFrequentCustomer" class="bi bi-check-lg text-success"></i>
+              <i *ngIf="!user.isFrequentCustomer" class="bi bi-x-lg text-danger"></i>
+            </td>
+            <td>
+              <a [routerLink]="['/users', user.id]" class="btn btn-sm btn-primary me-2">
+                <i class="bi bi-eye"></i>
+              </a>
+              <a [routerLink]="['/users/edit', user.id]" class="btn btn-sm btn-warning me-2">
+                <i class="bi bi-pencil"></i>
+              </a>
+              <button (click)="deleteUser(user.id)" class="btn btn-sm btn-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+<div class="product-search mb-4">
+  <div class="input-group">
+    <input type="text" class="form-control" placeholder="Buscar productos..." 
+           [(ngModel)]="searchTerm" (keyup.enter)="search()">
+    <button class="btn btn-outline-primary" type="button" (click)="search()">
+      <i class="bi bi-search"></i> Buscar
+    </button>
+  </div>
+</div>

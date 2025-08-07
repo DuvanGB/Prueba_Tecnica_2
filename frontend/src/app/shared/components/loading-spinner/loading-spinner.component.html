@@ -1,0 +1,6 @@
+<div class="loading-spinner" [ngClass]="'size-' + size">
+  <div class="spinner-border" role="status">
+    <span class="visually-hidden">{{ message }}</span>
+  </div>
+  <div NgIf="message" class="loading-message mt-2">{{ message }}</div>
+</div>

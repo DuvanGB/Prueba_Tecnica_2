@@ -1,0 +1,19 @@
+<div class="card mb-4">
+  <div class="card-header">
+    <h5>Gestión de Roles</h5>
+  </div>
+  <div class="card-body">
+    <div class="d-flex flex-wrap gap-2">
+      <div *ngFor="let role of availableRoles" class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" 
+               [id]="'role-' + role" 
+               [checked]="user.roles.includes(role)"
+               (change)="toggleRole(role)"
+               [disabled]="loading">
+        <label class="form-check-label" [for]="'role-' + role">
+          {{ getRoleName(role) }}
+        </label>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,5 @@
+<div *ngIf="!isDismissed" class="alert alert-danger d-flex align-items-center">
+  <i *ngIf="showIcon" class="bi bi-exclamation-triangle-fill me-2"></i>
+  <div>{{ message }}</div>
+  <button *ngIf="dismissible" type="button" class="btn-close ms-auto" (click)="isDismissed = true"></button>
+</div>

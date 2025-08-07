@@ -1,0 +1,43 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <h4>Reporte de Productos Activos</h4>
+      <button (click)="exportToExcel()" class="btn btn-success">
+        <i class="bi bi-file-excel"></i> Exportar a Excel
+      </button>
+    </div>
+
+    <div class="card-body">
+      <div *ngIf="loading" class="text-center">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Cargando...</span>
+        </div>
+      </div>
+
+      <div *ngIf="!loading">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Producto</th>
+                <th>Ventas</th>
+                <th>Última Venta</th>
+                <th>Precio</th>
+                <th>Stock</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of reportData">
+                <td>{{ item.product.name }}</td>
+                <td>{{ item.salesCount }}</td>
+                <td>{{ item.lastSaleDate | date:'shortDate' }}</td>
+                <td>{{ item.product.price | currency }}</td>
+                <td>{{ item.product.stockQuantity }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

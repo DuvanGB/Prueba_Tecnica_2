@@ -1,0 +1,80 @@
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">
+    <h2>Gestión de Productos</h2>
+    <a routerLink="/products/create" class="btn btn-primary">
+      <i class="bi bi-plus-lg"></i> Nuevo Producto
+    </a>
+  </div>
+
+  <div class="row mb-4">
+    <div class="col-md-6">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Buscar productos..." 
+               [(ngModel)]="searchTerm" (input)="applyFilters()">
+        <button class="btn btn-outline-secondary" type="button">
+          <i class="bi bi-search"></i>
+        </button>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <select class="form-select" [(ngModel)]="categoryFilter" (change)="applyFilters()">
+        <option value="">Todas las categorías</option>
+        <option *ngFor="let category of enumKeys(ProductCategory)" [value]="category">
+          {{ getCategoryName(category) }}
+        </option>
+      </select>
+    </div>
+  </div>
+
+  <div *ngIf="loading" class="text-center">
+    <div class="spinner-border" role="status">
+      <span class="visually-hidden">Cargando...</span>
+    </div>
+  </div>
+
+  <div *ngIf="!loading">
+    <div class="table-responsive">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Categoría</th>
+            <th>Precio</th>
+            <th>Stock</th>
+            <th>Estado</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let product of filteredProducts">
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ getCategoryName(product.category) }}</td>
+            <td>{{ product.price | currency }}</td>
+            <td>{{ product.stockQuantity }}</td>
+            <td>
+              <span class="badge" [ngClass]="{
+                'bg-success': product.active,
+                'bg-secondary': !product.active
+              }">
+                {{ product.active ? 'Activo' : 'Inactivo' }}
+              </span>
+            </td>
+            <td>
+              <a [routerLink]="['/products', product.id]" class="btn btn-sm btn-primary me-2">
+                <i class="bi bi-eye"></i>
+              </a>
+              <a [routerLink]="['/products/edit', product.id]" class="btn btn-sm btn-warning me-2">
+                <i class="bi bi-pencil"></i>
+              </a>
+              <button (click)="deleteProduct(product.id)" class="btn btn-sm btn-danger">
+                <i class="bi bi-trash"></i>
+              </button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

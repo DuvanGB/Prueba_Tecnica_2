@@ -1,0 +1,70 @@
+<div class="container mt-4" *ngIf="order">
+  <div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <h4>Detalle de Orden #{{ order.id }}</h4>
+      <span [ngClass]="{
+        'badge bg-warning': order.status === 'PENDING',
+        'badge bg-info': order.status === 'PROCESSING',
+        'badge bg-success': order.status === 'COMPLETED',
+        'badge bg-danger': order.status === 'CANCELLED'
+      }">
+        {{ order.status }}
+      </span>
+    </div>
+
+    <div class="card-body">
+      <div class="row mb-4">
+        <div class="col-md-6">
+          <h5>Información del Cliente</h5>
+          <p><strong>Nombre:</strong> {{ order.user.name }}</p>
+          <p><strong>Email:</strong> {{ order.user.email }}</p>
+        </div>
+        <div class="col-md-6">
+          <h5>Información de la Orden</h5>
+          <p><strong>Fecha:</strong> {{ order.createdAt | date:'medium' }}</p>
+          <p><strong>Descuento:</strong> {{ getDiscountMessage() }}</p>
+        </div>
+      </div>
+
+      <h5 class="mb-3">Productos</h5>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Producto</th>
+              <th>Cantidad</th>
+              <th>Precio Unitario</th>
+              <th>Subtotal</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of order.items">
+              <td>{{ item.product.name }}</td>
+              <td>{{ item.quantity }}</td>
+              <td>{{ item.price | currency }}</td>
+              <td>{{ (item.price * item.quantity) | currency }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="text-end mt-4">
+        <div class="mb-2">
+          <strong>Subtotal:</strong> {{ order.total | currency }}
+        </div>
+        <div class="mb-2 text-danger" *ngIf="order.discount > 0">
+          <strong>Descuento ({{ order.discount }}%):</strong> -{{ (order.total * order.discount / 100) | currency }}
+        </div>
+        <div class="h4">
+          <strong>Total:</strong> {{ order.finalTotal | currency }}
+        </div>
+      </div>
+
+      <div class="mt-4" *ngIf="order.status === 'PENDING'">
+        <button (click)="applyRandomDiscount()" class="btn btn-outline-primary me-2">
+          Aplicar Descuento Aleatorio (50%)
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

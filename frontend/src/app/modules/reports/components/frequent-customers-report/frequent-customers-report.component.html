@@ -1,0 +1,90 @@
+<div class="container mt-4">
+  <div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+      <div>
+        <h4 class="d-inline me-3">Clientes Frecuentes</h4>
+        <select class="form-select d-inline w-auto" [(ngModel)]="limit" (change)="updateLimit()">
+          <option value="5">Top 5</option>
+          <option value="10">Top 10</option>
+          <option value="20">Top 20</option>
+        </select>
+      </div>
+      <button (click)="exportToExcel()" class="btn btn-success">
+        <i class="bi bi-file-excel"></i> Exportar a Excel
+      </button>
+    </div>
+
+    <div class="card-body">
+      <div *ngIf="loading" class="text-center">
+        <div class="spinner-border" role="status">
+          <span class="visually-hidden">Cargando...</span>
+        </div>
+      </div>
+
+      <div *ngIf="!loading">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th>Cliente</th>
+                <th>Pedidos</th>
+                <th>Total Gastado</th>
+                <th>Último Pedido</th>
+                <th>Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let item of reportData">
+                <td>{{ item.user.name }}</td>
+                <td>{{ item.orderCount }}</td>
+                <td>{{ item.totalSpent | currency }}</td>
+                <td>{{ item.lastOrderDate | date:'shortDate' }}</td>
+                <td>{{ item.user.email }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="mt-4">
+          <h5>Análisis de Clientes Frecuentes</h5>
+          <div class="row">
+            <div class="col-md-8">
+              <canvas baseChart
+                      [data]="chartData"
+                      [type]="chartType"
+                      [options]="chartOptions">
+              </canvas>
+            </div>
+            <div class="col-md-4">
+              <div class="card">
+                <div class="card-body">
+                  <h6>Estadísticas Clave</h6>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Cliente con más pedidos:
+                      <span class="badge bg-primary rounded-pill">
+                        {{ reportData[0].user.name || 'N/A' }}
+                      </span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Mayor gasto total:
+                      <span class="badge bg-success rounded-pill">
+                        {{ reportData[0].totalSpent || 'N/A' }}
+                      </span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                      Pedidos promedio:
+                      <span class="badge bg-info rounded-pill">
+                        {{ getAverageOrders() | number:'1.1-1' }}
+                      </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
